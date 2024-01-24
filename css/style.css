@@ -11,6 +11,7 @@
     font-family: 'Courier New', Courier, monospace;
     margin: 3% 0 0 0;
     width: 100%;
+    font-size: 29px;
 }
 
 .title h3 {
@@ -29,13 +30,13 @@
     margin: 10% 35% 0 0;
 }
 
-.quote {
-    background-color: red;
+body .quote {
+    text-align: right ;
     position: relative;
     top: -190px;
     color: #676767;
     font-family: 'Libre Baskerville';
     font-size: 14px;
-    width: 120px;
+    width: 130px;
     margin: 0 0 0 86px;
 }
