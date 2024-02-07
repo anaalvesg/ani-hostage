@@ -94,8 +94,8 @@ body .quote {
 }
 
 .narrator {
-    top: -100px;
-    /* margin-left: 35%; */
+    /* top: -100px; */
+    bottom: -50px;
     margin: 0 45% 0 36%;
     width: 308px;
     height: 308px;
@@ -105,7 +105,7 @@ body .quote {
 
 .binary-phrase {
     position: relative;
-    top: -100px;    
+    /* top: -100px;     */
     color: #000;
     text-align: center;
     font-family: "Courier New";
