@@ -12,6 +12,7 @@
 }
 
 nav a {
+    font-family: "Libre Baskerville";
     text-decoration: none;
     color: var(--preto);
 }
