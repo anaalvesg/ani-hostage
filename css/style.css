@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+:root {
+    --preto: #000;
+    --cinza1: #5B4B4B;
+    --cinza2: #676767;
+}
 
 * {
     margin: 0;
     padding: 0;
     cursor: crosshair;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
 }
 
 .title h1 {
@@ -17,7 +27,7 @@
 .title h3 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: #5B4B4B;
+    color: var(--cinza1);
     width: 100%;
     font-size: 16px;
     font-weight: 400;
@@ -35,7 +45,7 @@ body .quote {
     text-align: left ;
     position: relative;
     top: -190px;
-    color: #676767;
+    color: var(--cinza2);
     font-family: 'Libre Baskerville';
     font-size: 14px;
     width: 130px;
@@ -106,7 +116,7 @@ body .quote {
 .binary-phrase {
     position: relative;
     /* top: -100px;     */
-    color: #000;
+    color: var(--preto);
     text-align: center;
     font-family: "Courier New";
     font-size: 15px;
